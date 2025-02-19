@@ -17,7 +17,7 @@ interface Project {
 
 const projects: Project[] = [
   {
-    id: 1,
+    id: 1,   
     title: "E-Commerce Platform",
     description:
       "A full-featured e-commerce platform with cart, checkout, and admin dashboard.",
