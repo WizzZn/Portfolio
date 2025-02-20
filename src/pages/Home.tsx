@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Github, Linkedin, Twitter, FileDown } from "lucide-react";
 import { ScrollAnimation } from "../components/ScrollAnimation";
-import profileImage from "../assets/profileImagebg.png";
+import profileImage from "../../assets/profileImagebg.png";
 import resume from "../../assets/Ajmal_Resume_New.pdf";
 
 const Home = () => {
