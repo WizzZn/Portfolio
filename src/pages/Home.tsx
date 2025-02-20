@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Twitter, FileDown } from "lucide-react";
 import { ScrollAnimation } from "../components/ScrollAnimation";
 import profileImage from "../assets/profileImagebg.png";
-import resume from "../assets/AjmalResume.pdf";
+import resume from "../assets/Ajmal_Resume_New.pdf";
 
 const Home = () => {
   const handleDownload = () => {
@@ -14,10 +14,10 @@ const Home = () => {
     document.body.removeChild(link);
   };
   return (
-    <div className="pt-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row items-center justify-between py-20">
-          <ScrollAnimation className="space-y-6">
+    <div className="pt-16 min-h-screen flex items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div className="flex flex-col md:flex-row items-center justify-between py-10 md:py-20 space-y-10 md:space-y-0 md:space-x-16">
+          <ScrollAnimation className="space-y-6 max-w-lg flex-1">
             <h1 className="text-5xl font-bold">
               Hi, I'm{" "}
               <span className="text-blue-600 dark:text-blue-400">
@@ -27,7 +27,7 @@ const Home = () => {
             <h2 className="text-3xl text-gray-600 dark:text-gray-300">
               Unity Game Developer
             </h2>
-            <p className="text-gray-600 dark:text-gray-400 max-w-lg">
+            <p className="text-gray-600 dark:text-gray-400">
               "I build captivating and interactive games with Unity,
               transforming ideas into engaging digital experiences. From
               stunning visuals to fluid gameplay, I focus on creating games that
@@ -35,6 +35,7 @@ const Home = () => {
               to life!"
             </p>
 
+            {/* Social Icons */}
             <div className="flex space-x-4">
               <motion.a
                 whileHover={{ scale: 1.1 }}
@@ -67,7 +68,6 @@ const Home = () => {
                 <Twitter className="w-6 h-6" />
               </motion.a>
             </div>
-
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -78,13 +78,11 @@ const Home = () => {
               <span>Download Resume</span>
             </motion.button>
           </ScrollAnimation>
-
-          <ScrollAnimation className="mt-10 md:mt-0">
+          <ScrollAnimation className="flex-1 flex justify-end">
             <img
               src={profileImage}
               alt="Profile"
-              className="w-96 h-96 rounded-full object-cover mx-auto shadow-2xl bg-gray-300 p-2"
-              style={{}}
+              className="w-80 h-80 md:w-96 md:h-96 rounded-full object-cover shadow-2xl bg-gray-300 p-2"
             />
           </ScrollAnimation>
         </div>

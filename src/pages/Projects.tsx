@@ -18,39 +18,51 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,   
-    title: "E-Commerce Platform",
+    title: "Golden Grove",
     description:
-      "A full-featured e-commerce platform with cart, checkout, and admin dashboard.",
+      "A physics-based platformer featuring obstacle avoidance, coin collection, and a checkpoint system.",
+    tech: ["React", "Node.js", "MongoDB"],
+    image: "https://res.cloudinary.com/ddayarabg/image/upload/v1740031536/nchtcg8kmcnmjgg62ihd.png",
+    video:
+      "https://res.cloudinary.com/ddayarabg/video/upload/f_auto:video,q_auto/xv4bysz5etz07s9zyqog",
+    github: "https://github.com/WizzZn/Golden-Grove",
+    live: "https://res.cloudinary.com/ddayarabg/video/upload/v1740031450/xv4bysz5etz07s9zyqog.mp4",
+  },
+  {
+    id: 2,   
+    title: "Slippy Cube",
+    description:
+      "A fast-paced endless runner with procedurally generated obstacles and increasing difficulty.",
     tech: ["React", "Node.js", "MongoDB"],
     image: "https://res.cloudinary.com/ddayarabg/image/upload/v1740003333/qv8qwlowrxnswk3cs1ol.png",
     video:
       "https://res.cloudinary.com/ddayarabg/video/upload/v1740002194/sl1hyqhrbx3d8niamusq.mp4",
-    github: "https://github.com/yourgithub/ecommerce",
-    live: "https://ecommerce-demo.com",
+    github: "https://github.com/WizzZn/Slippy-Cube",
+    live: "https://play.unity.com/en/games/de22e336-f8d4-4edf-9ffa-4174cbb6021a/slippy-cube",
   },
   {
-    id: 2,
-    title: "Social Media App",
+    id: 3,
+    title: "Duck Hands",
     description:
-      "Real-time social media application with messaging and post features.",
+      "A color-matching puzzle game where players organize cars before loading them onto a ship.",
     tech: ["React", "Firebase", "Socket.io"],
     image:
       "https://res.cloudinary.com/ddayarabg/image/upload/v1740002182/n7fowucnihd1ifckm0nb.png",
     video:
       "https://res.cloudinary.com/ddayarabg/video/upload/v1740002189/hjjw8zg7ihizbphiadof.mp4",
-    github: "https://github.com/yourgithub/social-app",
-    live: "https://social-app-demo.com",
+    github: "https://github.com/WizzZn/Dock-Hands",
+    live: "https://play.unity.com/en/games/ef5033c0-94e6-4502-8b54-e5bac27ed32f/duck-hands",
   },
   {
-    id: 3,
-    title: "Task Management",
-    description: "Collaborative task management tool with real-time updates.",
+    id: 4,
+    title: "Prison Breakout",
+    description: "A stealth-based game with enemy AI, a field-of-view detection system, and an unlocking mechanic.",
     tech: ["Vue.js", "Express", "PostgreSQL"],
     image:
       "https://res.cloudinary.com/ddayarabg/image/upload/v1740003396/csnil3yzyzjmpoa32ohk.jpg",
     video:
       " https://res.cloudinary.com/ddayarabg/video/upload/v1740002587/okl2yuf0neqvwr9quaq9.mp4",
-    github: "https://github.com/yourgithub/task-manager",
+    github: "https://github.com/WizzZn/Prison-Breakout",
     live: "https://taskmanager-demo.com",
   },
 ];
