@@ -10,7 +10,7 @@ const Home = () => {
     link.href = resume;
     link.download = "Ajmal_Resume.pdf";
     document.body.appendChild(link);
-    link.click();
+    link.click(); 
     document.body.removeChild(link);
   };
   return (
