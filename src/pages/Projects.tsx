@@ -17,7 +17,7 @@ interface Project {
 
 const projects: Project[] = [
   {
-    id: 1,   
+    id: 1,
     title: "Golden Grove",
     description:
       "A physics-based platformer featuring obstacle avoidance, coin collection, and a checkpoint system.",
@@ -29,7 +29,7 @@ const projects: Project[] = [
     live: "https://res.cloudinary.com/ddayarabg/video/upload/v1740031450/xv4bysz5etz07s9zyqog.mp4",
   },
   {
-    id: 2,   
+    id: 2,
     title: "Slippy Cube",
     description:
       "A fast-paced endless runner with procedurally generated obstacles and increasing difficulty.",
@@ -40,6 +40,8 @@ const projects: Project[] = [
     github: "https://github.com/WizzZn/Slippy-Cube",
     live: "https://play.unity.com/en/games/de22e336-f8d4-4edf-9ffa-4174cbb6021a/slippy-cube",
   },
+
+
   {
     id: 3,
     title: "Duck Hands",
@@ -49,7 +51,7 @@ const projects: Project[] = [
     image:
       "https://res.cloudinary.com/ddayarabg/image/upload/v1740002182/n7fowucnihd1ifckm0nb.png",
     video:
-      "https://res.cloudinary.com/ddayarabg/video/upload/v1740002189/hjjw8zg7ihizbphiadof.mp4",
+      "https://res.cloudinary.com/ddayarabg/video/upload/v1754075285/Duck_Hands_VIdeo_New_bswbw4.mp4",
     github: "https://github.com/WizzZn/Dock-Hands",
     live: "https://play.unity.com/en/games/ef5033c0-94e6-4502-8b54-e5bac27ed32f/duck-hands",
   },
@@ -88,7 +90,7 @@ const Projects = () => {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               whileHover={{ scale: 1.05 }}
-              className="bg-gray-800 rounded-lg overflow-hidden relative"
+              className="bg-white dark:bg-gray-800 border dark:border-none  rounded-lg overflow-hidden relative"
               onMouseEnter={() => setHoveredProject(project.id)}
               onMouseLeave={() => setHoveredProject(null)}
             >
@@ -111,18 +113,8 @@ const Projects = () => {
               </div>
 
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                <p className="text-gray-300 mb-4">{project.description}</p>
-                {/* <div className="flex flex-wrap gap-2">
-                  {project.tech.map((tech) => (
-                    <span
-                      key={tech}
-                      className="px-3 py-1 bg-gray-700 rounded-full text-sm"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div> */}
+                <h3 className="text-xl font-bold mb-2 ">{project.title}</h3>
+                <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
                 <div className="flex items-center gap-4 mt-4">
                   <a
                     href={project.github}

@@ -34,7 +34,7 @@ const About = () => {
         >
           <div>
             <h2 className="text-4xl font-bold mb-6">About Me</h2>
-            <p className="text-gray-300 text-lg leading-relaxed">
+            <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
               I’m a passionate Unity Game Developer with experience in 2D and 3D
               game development, specializing in crafting immersive and engaging
               experiences using Unity and C#. As a Game Development Intern at
@@ -59,14 +59,14 @@ const About = () => {
 
           <div>
             <h3 className="text-2xl font-bold mb-6">Skills</h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2  md:grid-cols-4 gap-4">
               {skills.map((skill, index) => (
                 <motion.div
                   key={skill}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.1 }}
-                  className="bg-gray-800 p-4 rounded-lg text-center"
+                  className="bg-white dark:bg-gray-800 border p-4 rounded-lg    text-center"
                 >
                   {skill}
                 </motion.div>
@@ -76,17 +76,17 @@ const About = () => {
 
           <div>
             <h3 className="text-2xl font-bold mb-6">Experience</h3>
-            <div className="space-y-8">
+            <div className="space-y-8 ">
               <motion.div
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
-                className="bg-gray-800 p-6 rounded-lg"
+                className="bg-white dark:bg-gray-800 p-6 rounded-lg"
               >
                 <h4 className="text-xl font-bold">
                   Game Development Intern - EmergioGames
                 </h4>
                 <p className="text-gray-400">Oct 2023 – Present</p>
-                <p className="text-gray-300 mt-2">
+                <p className="text-gray-600 dark:text-gray-300  mt-2">
                   Focused on 2D and 3D game development using Unity and Blender.
                   Implemented Rigidbody physics and collision detection for
                   realistic object interactions. Designed Tilemap-based levels

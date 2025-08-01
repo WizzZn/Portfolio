@@ -58,7 +58,6 @@ const Navbar = () => {
           </button>
           
           <div className="flex items-center space-x-8">
-            {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
               {links.map((link) => (
                 <button
@@ -81,7 +80,6 @@ const Navbar = () => {
               ))}
             </div>
 
-            {/* Theme Toggle */}
             <button
               onClick={toggleTheme}
               className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800"
