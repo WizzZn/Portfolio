@@ -10,16 +10,9 @@ const About = () => {
     "GitHub",
     "Blender",
     "Visual Studio",
-    "Tiled Map Editor",
-    "Particle Systems",
     "Photoshop",
-    "NavMesh Navigation",
     "Game Physics",
-    "AI Navigation",
-    "Tilemap Design",
     "3D Modeling",
-    "Animation",
-    "UI/UX Design",
     "Level Design",
   ];
 

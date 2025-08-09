@@ -21,7 +21,7 @@ const Home = () => {
             <h1 className="text-5xl font-bold">
               Hi, I'm{" "}
               <span className="text-blue-600 dark:text-blue-400">
-                Ahammed Ajmal
+                Ajmal
               </span>
             </h1>
             <h2 className="text-3xl text-gray-600 dark:text-gray-300">

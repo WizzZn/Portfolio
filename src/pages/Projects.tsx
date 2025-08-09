@@ -24,7 +24,7 @@ const projects: Project[] = [
     tech: ["React", "Node.js", "MongoDB"],
     image: "https://res.cloudinary.com/ddayarabg/image/upload/v1740031536/nchtcg8kmcnmjgg62ihd.png",
     video:
-      "https://res.cloudinary.com/ddayarabg/video/upload/f_auto:video,q_auto/xv4bysz5etz07s9zyqog",
+      "https://res.cloudinary.com/ddayarabg/video/upload/v1754722498/Golden-Grove_m0aqst.mp4",
     github: "https://github.com/WizzZn/Golden-Grove",
     live: "https://res.cloudinary.com/ddayarabg/video/upload/v1740031450/xv4bysz5etz07s9zyqog.mp4",
   },
@@ -36,12 +36,10 @@ const projects: Project[] = [
     tech: ["React", "Node.js", "MongoDB"],
     image: "https://res.cloudinary.com/ddayarabg/image/upload/v1740003333/qv8qwlowrxnswk3cs1ol.png",
     video:
-      "https://res.cloudinary.com/ddayarabg/video/upload/v1740002194/sl1hyqhrbx3d8niamusq.mp4",
+      "https://res.cloudinary.com/ddayarabg/video/upload/v1754722483/Slippy_Cube_e10cdw.mp4",
     github: "https://github.com/WizzZn/Slippy-Cube",
     live: "https://play.unity.com/en/games/de22e336-f8d4-4edf-9ffa-4174cbb6021a/slippy-cube",
   },
-
-
   {
     id: 3,
     title: "Duck Hands",
@@ -63,8 +61,32 @@ const projects: Project[] = [
     image:
       "https://res.cloudinary.com/ddayarabg/image/upload/v1740003396/csnil3yzyzjmpoa32ohk.jpg",
     video:
-      " https://res.cloudinary.com/ddayarabg/video/upload/v1740002587/okl2yuf0neqvwr9quaq9.mp4",
+      " https://res.cloudinary.com/ddayarabg/video/upload/v1754722410/Prison-Break_Out_lbyf6t.mp4",
     github: "https://github.com/WizzZn/Prison-Breakout",
+    live: "https://taskmanager-demo.com",
+  },
+  {
+    id: 5,
+    title: "Match The Cards",
+    description: "A 2D memory match game featuring classic casino cards, level-based challenges, and brain-training mechanics.",
+    tech: ["Vue.js", "Express", "PostgreSQL"],
+    image:
+      "https://res.cloudinary.com/ddayarabg/image/upload/v1754684135/Card_poster_urbpct.jpg",
+    video:
+      " https://res.cloudinary.com/ddayarabg/video/upload/v1754686316/Match_The_Cards_vabwub.mp4",
+    github: "https://github.com/WizzZn/Test-Match-game",
+    live: "https://taskmanager-demo.com",
+  },
+  {
+    id: 6,
+    title: "Punch Pixel Party",
+    description: "A 2D multiplayer game with real-time player interaction, fun gameplay, and lighthearted challenges.",
+    tech: ["Vue.js", "Express", "PostgreSQL"],
+    image:
+      "https://res.cloudinary.com/ddayarabg/image/upload/v1754727214/Under_Development_bcur3w.png",
+    video:
+      " https://res.cloudinary.com/ddayarabg/image/upload/v1754727214/Under_Development_bcur3w.png",
+    github: "https://github.com/WizzZn/Punch-Pixel-Party",
     live: "https://taskmanager-demo.com",
   },
 ];
